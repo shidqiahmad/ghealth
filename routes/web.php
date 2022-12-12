@@ -24,6 +24,26 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/AudioTherapy', function () {
+    return view('service.audioTherapy');
+});
+
+Route::get('/ReadTherapy', function () {
+    return view('service.readingTherapy');
+});
+
+Route::get('/TalkTherapy', function () {
+    return view('service.talkingTherapy');
+});
+
+Route::get('/SpiritualTherapy', function () {
+    return view('service.spirituality');
+});
+
+Route::get('/ChildTherapy', function () {
+    return view('service.childTherapy');
+});
+
 Auth::routes(['verify' => true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

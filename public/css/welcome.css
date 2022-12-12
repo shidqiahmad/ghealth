@@ -17,6 +17,8 @@
     max-width: 41em;
     min-height: 26em;
     display: none;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 .img-con {
     position: absolute;

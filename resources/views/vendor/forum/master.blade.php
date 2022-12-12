@@ -183,7 +183,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" :class="{ show: !isCollapsed }">
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url(config('forum.web.router.prefix')) }}">{{ trans('forum::general.index') }}</a>
                     </li>
@@ -201,7 +201,7 @@
                         </li>
                     @endcan
                 </ul>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     @if (Auth::check())
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" @click="isUserDropdownCollapsed = ! isUserDropdownCollapsed">
