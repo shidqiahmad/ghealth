@@ -47,7 +47,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="{{ url('/service') }}" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="{{ url('/services') }}" class="nav-link">Service</a></li>
                         <li class="nav-item"><a href="{{ url('/forum') }}" class="nav-link">Forum</a></li>
                         <li class="nav-item"><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
                     </ul>
